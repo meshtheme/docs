@@ -1,0 +1,755 @@
+Configuration file: /Library/WebServer/Documents/chillax-docss/_config.yml
+/Users/salimhossain/.gem/ruby/3.4.1/gems/rake-13.0.3/lib/rake.rb:33: warning: ostruct was loaded from the standard library, but will no longer be part of the default gems starting from Ruby 3.5.0.
+You can add ostruct to your Gemfile or gemspec to silence this warning.
+            Source: /Library/WebServer/Documents/chillax-docss
+       Destination: /Library/WebServer/Documents/chillax-docss/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+4 │ @import "./support/support";
+  │         ^^^^^^^^^^^^^^^^^^^
+  ╵
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-dark.scss 4:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+5 │ @import "./color_schemes/dark";
+  │         ^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-dark.scss 5:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+6 │ @import "./modules";
+  │         ^^^^^^^^^^^
+  ╵
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-dark.scss 6:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+7 │ @import "./custom/custom";
+  │         ^^^^^^^^^^^^^^^^^
+  ╵
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-dark.scss 7:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "./variables";
+  │         ^^^^^^^^^^^^^
+  ╵
+    support/support.scss 1:9                                                           @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-dark.scss 4:9  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+66 │ $feedback-color: darken($sidebar-color, 3%) !default;
+   │                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Library/WebServer/Documents/chillax-docss/_sass/support/_variables.scss 66:18     @import
+    support/support.scss 1:9                                                           @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-dark.scss 4:9  root stylesheet
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -3.0909090909%)
+color.adjust($color, $lightness: -3%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+66 │ $feedback-color: darken($sidebar-color, 3%) !default;
+   │                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Library/WebServer/Documents/chillax-docss/_sass/support/_variables.scss 66:18     @import
+    support/support.scss 1:9                                                           @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-dark.scss 4:9  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+96 │ $sp-1: map-get($spacers, sp-1) !default; // 0.25 rem == 4px
+   │        ^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Library/WebServer/Documents/chillax-docss/_sass/support/_variables.scss 96:8      @import
+    support/support.scss 1:9                                                           @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-dark.scss 4:9  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+97 │ $sp-2: map-get($spacers, sp-2) !default; // 0.5  rem == 8px
+   │        ^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Library/WebServer/Documents/chillax-docss/_sass/support/_variables.scss 97:8      @import
+    support/support.scss 1:9                                                           @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-dark.scss 4:9  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+98 │ $sp-3: map-get($spacers, sp-3) !default; // 0.75 rem == 12px
+   │        ^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Library/WebServer/Documents/chillax-docss/_sass/support/_variables.scss 98:8      @import
+    support/support.scss 1:9                                                           @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-dark.scss 4:9  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+99 │ $sp-4: map-get($spacers, sp-4) !default; // 1    rem == 16px
+   │        ^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Library/WebServer/Documents/chillax-docss/_sass/support/_variables.scss 99:8      @import
+    support/support.scss 1:9                                                           @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-dark.scss 4:9  root stylesheet
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -18.8888888889%)
+color.adjust($color, $lightness: -3%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+17 │ $feedback-color: darken($sidebar-color, 3%);
+   │                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    color_schemes/dark.scss 17:18                                                      @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-dark.scss 5:9  root stylesheet
+DEPRECATION WARNING [slash-div]: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($size, $root-font-size) or calc($size / $root-font-size)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+  ╷
+2 │   $remSize: $size / $root-font-size;
+  │             ^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    /Library/WebServer/Documents/chillax-docss/_sass/support/_functions.scss 2:13          rem()
+    /Library/WebServer/Documents/chillax-docss/_sass/support/mixins/_layout.scss 15:24     mq()
+    /Library/WebServer/Documents/chillax-docss/_sass/support/mixins/_typography.scss 30:3  fs-4()
+    /Library/WebServer/Documents/chillax-docss/_sass/base.scss 16:3                        @import
+    modules.scss 9:9                                                                       @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-dark.scss 6:9      root stylesheet
+DEPRECATION WARNING [slash-div]: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($nav-list-item-height-sm, 4) or calc($nav-list-item-height-sm / 4)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+   ╷
+70 │       padding-top: #{$nav-list-item-height-sm / 4};
+   │                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Library/WebServer/Documents/chillax-docss/_sass/navigation.scss 70:22             @import
+    modules.scss 12:9                                                                  @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-dark.scss 6:9  root stylesheet
+DEPRECATION WARNING [slash-div]: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($nav-list-item-height-sm, 4) or calc($nav-list-item-height-sm / 4)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+   ╷
+71 │       padding-right: #{$nav-list-item-height-sm / 4};
+   │                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Library/WebServer/Documents/chillax-docss/_sass/navigation.scss 71:24             @import
+    modules.scss 12:9                                                                  @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-dark.scss 6:9  root stylesheet
+DEPRECATION WARNING [slash-div]: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($nav-list-item-height-sm, 4) or calc($nav-list-item-height-sm / 4)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+   ╷
+72 │       padding-bottom: #{$nav-list-item-height-sm / 4};
+   │                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Library/WebServer/Documents/chillax-docss/_sass/navigation.scss 72:25             @import
+    modules.scss 12:9                                                                  @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-dark.scss 6:9  root stylesheet
+DEPRECATION WARNING [slash-div]: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($nav-list-item-height-sm, 4) or calc($nav-list-item-height-sm / 4)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+   ╷
+73 │       padding-left: #{$nav-list-item-height-sm / 4};
+   │                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Library/WebServer/Documents/chillax-docss/_sass/navigation.scss 73:23             @import
+    modules.scss 12:9                                                                  @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-dark.scss 6:9  root stylesheet
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -3.4693877551%)
+color.adjust($color, $lightness: -2%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+41 │     color: darken($link-color, 2%);
+   │            ^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Library/WebServer/Documents/chillax-docss/_sass/buttons.scss 41:12                @import
+    modules.scss 15:9                                                                  @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-dark.scss 6:9  root stylesheet
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -5.1515151515%)
+color.adjust($color, $lightness: -1%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+49 │     background-color: darken($base-button-color, 1%);
+   │                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Library/WebServer/Documents/chillax-docss/_sass/buttons.scss 49:23                @import
+    modules.scss 15:9                                                                  @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-dark.scss 6:9  root stylesheet
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -15.4545454545%)
+color.adjust($color, $lightness: -3%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+55 │     background-color: darken($base-button-color, 3%);
+   │                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Library/WebServer/Documents/chillax-docss/_sass/buttons.scss 55:23                @import
+    modules.scss 15:9                                                                  @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-dark.scss 6:9  root stylesheet
+WARNING: 101 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+5 │ @import "./support/support";
+  │         ^^^^^^^^^^^^^^^^^^^
+  ╵
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-default.scss 5:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+6 │ @import "./color_schemes/light";
+  │         ^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-default.scss 6:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+7 │ @import "./modules";
+  │         ^^^^^^^^^^^
+  ╵
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-default.scss 7:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+8 │ @import "./custom/custom";
+  │         ^^^^^^^^^^^^^^^^^
+  ╵
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-default.scss 8:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "./variables";
+  │         ^^^^^^^^^^^^^
+  ╵
+    support/support.scss 1:9                                                              @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-default.scss 5:9  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+66 │ $feedback-color: darken($sidebar-color, 3%) !default;
+   │                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Library/WebServer/Documents/chillax-docss/_sass/support/_variables.scss 66:18        @import
+    support/support.scss 1:9                                                              @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-default.scss 5:9  root stylesheet
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -3.0909090909%)
+color.adjust($color, $lightness: -3%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+66 │ $feedback-color: darken($sidebar-color, 3%) !default;
+   │                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Library/WebServer/Documents/chillax-docss/_sass/support/_variables.scss 66:18        @import
+    support/support.scss 1:9                                                              @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-default.scss 5:9  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+96 │ $sp-1: map-get($spacers, sp-1) !default; // 0.25 rem == 4px
+   │        ^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Library/WebServer/Documents/chillax-docss/_sass/support/_variables.scss 96:8         @import
+    support/support.scss 1:9                                                              @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-default.scss 5:9  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+97 │ $sp-2: map-get($spacers, sp-2) !default; // 0.5  rem == 8px
+   │        ^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Library/WebServer/Documents/chillax-docss/_sass/support/_variables.scss 97:8         @import
+    support/support.scss 1:9                                                              @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-default.scss 5:9  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+98 │ $sp-3: map-get($spacers, sp-3) !default; // 0.75 rem == 12px
+   │        ^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Library/WebServer/Documents/chillax-docss/_sass/support/_variables.scss 98:8         @import
+    support/support.scss 1:9                                                              @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-default.scss 5:9  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+99 │ $sp-4: map-get($spacers, sp-4) !default; // 1    rem == 16px
+   │        ^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Library/WebServer/Documents/chillax-docss/_sass/support/_variables.scss 99:8         @import
+    support/support.scss 1:9                                                              @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-default.scss 5:9  root stylesheet
+DEPRECATION WARNING [slash-div]: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($size, $root-font-size) or calc($size / $root-font-size)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+  ╷
+2 │   $remSize: $size / $root-font-size;
+  │             ^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    /Library/WebServer/Documents/chillax-docss/_sass/support/_functions.scss 2:13          rem()
+    /Library/WebServer/Documents/chillax-docss/_sass/support/mixins/_layout.scss 15:24     mq()
+    /Library/WebServer/Documents/chillax-docss/_sass/support/mixins/_typography.scss 30:3  fs-4()
+    /Library/WebServer/Documents/chillax-docss/_sass/base.scss 16:3                        @import
+    modules.scss 9:9                                                                       @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-default.scss 7:9   root stylesheet
+DEPRECATION WARNING [slash-div]: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($nav-list-item-height-sm, 4) or calc($nav-list-item-height-sm / 4)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+   ╷
+70 │       padding-top: #{$nav-list-item-height-sm / 4};
+   │                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Library/WebServer/Documents/chillax-docss/_sass/navigation.scss 70:22                @import
+    modules.scss 12:9                                                                     @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-default.scss 7:9  root stylesheet
+DEPRECATION WARNING [slash-div]: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($nav-list-item-height-sm, 4) or calc($nav-list-item-height-sm / 4)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+   ╷
+71 │       padding-right: #{$nav-list-item-height-sm / 4};
+   │                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Library/WebServer/Documents/chillax-docss/_sass/navigation.scss 71:24                @import
+    modules.scss 12:9                                                                     @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-default.scss 7:9  root stylesheet
+DEPRECATION WARNING [slash-div]: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($nav-list-item-height-sm, 4) or calc($nav-list-item-height-sm / 4)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+   ╷
+72 │       padding-bottom: #{$nav-list-item-height-sm / 4};
+   │                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Library/WebServer/Documents/chillax-docss/_sass/navigation.scss 72:25                @import
+    modules.scss 12:9                                                                     @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-default.scss 7:9  root stylesheet
+DEPRECATION WARNING [slash-div]: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($nav-list-item-height-sm, 4) or calc($nav-list-item-height-sm / 4)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+   ╷
+73 │       padding-left: #{$nav-list-item-height-sm / 4};
+   │                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Library/WebServer/Documents/chillax-docss/_sass/navigation.scss 73:23                @import
+    modules.scss 12:9                                                                     @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-default.scss 7:9  root stylesheet
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -3.3552631579%)
+color.adjust($color, $lightness: -2%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+41 │     color: darken($link-color, 2%);
+   │            ^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Library/WebServer/Documents/chillax-docss/_sass/buttons.scss 41:12                   @import
+    modules.scss 15:9                                                                     @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-default.scss 7:9  root stylesheet
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -1.032388664%)
+color.adjust($color, $lightness: -1%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+49 │     background-color: darken($base-button-color, 1%);
+   │                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Library/WebServer/Documents/chillax-docss/_sass/buttons.scss 49:23                   @import
+    modules.scss 15:9                                                                     @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-default.scss 7:9  root stylesheet
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -3.0971659919%)
+color.adjust($color, $lightness: -3%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+55 │     background-color: darken($base-button-color, 3%);
+   │                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Library/WebServer/Documents/chillax-docss/_sass/buttons.scss 55:23                   @import
+    modules.scss 15:9                                                                     @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-default.scss 7:9  root stylesheet
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -5.7954545455%)
+color.adjust($color, $lightness: -5%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+61 │     background-color: darken(#dcdcdc, 5%);
+   │                       ^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Library/WebServer/Documents/chillax-docss/_sass/buttons.scss 61:23                   @import
+    modules.scss 15:9                                                                     @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-default.scss 7:9  root stylesheet
+WARNING: 91 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+4 │ @import "./support/support";
+  │         ^^^^^^^^^^^^^^^^^^^
+  ╵
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-light.scss 4:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+5 │ @import "./color_schemes/light";
+  │         ^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-light.scss 5:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+6 │ @import "./modules";
+  │         ^^^^^^^^^^^
+  ╵
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-light.scss 6:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+7 │ @import "./custom/custom";
+  │         ^^^^^^^^^^^^^^^^^
+  ╵
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-light.scss 7:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "./variables";
+  │         ^^^^^^^^^^^^^
+  ╵
+    support/support.scss 1:9                                                            @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-light.scss 4:9  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+66 │ $feedback-color: darken($sidebar-color, 3%) !default;
+   │                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Library/WebServer/Documents/chillax-docss/_sass/support/_variables.scss 66:18      @import
+    support/support.scss 1:9                                                            @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-light.scss 4:9  root stylesheet
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -3.0909090909%)
+color.adjust($color, $lightness: -3%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+66 │ $feedback-color: darken($sidebar-color, 3%) !default;
+   │                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Library/WebServer/Documents/chillax-docss/_sass/support/_variables.scss 66:18      @import
+    support/support.scss 1:9                                                            @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-light.scss 4:9  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+96 │ $sp-1: map-get($spacers, sp-1) !default; // 0.25 rem == 4px
+   │        ^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Library/WebServer/Documents/chillax-docss/_sass/support/_variables.scss 96:8       @import
+    support/support.scss 1:9                                                            @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-light.scss 4:9  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+97 │ $sp-2: map-get($spacers, sp-2) !default; // 0.5  rem == 8px
+   │        ^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Library/WebServer/Documents/chillax-docss/_sass/support/_variables.scss 97:8       @import
+    support/support.scss 1:9                                                            @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-light.scss 4:9  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+98 │ $sp-3: map-get($spacers, sp-3) !default; // 0.75 rem == 12px
+   │        ^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Library/WebServer/Documents/chillax-docss/_sass/support/_variables.scss 98:8       @import
+    support/support.scss 1:9                                                            @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-light.scss 4:9  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+99 │ $sp-4: map-get($spacers, sp-4) !default; // 1    rem == 16px
+   │        ^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Library/WebServer/Documents/chillax-docss/_sass/support/_variables.scss 99:8       @import
+    support/support.scss 1:9                                                            @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-light.scss 4:9  root stylesheet
+DEPRECATION WARNING [slash-div]: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($size, $root-font-size) or calc($size / $root-font-size)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+  ╷
+2 │   $remSize: $size / $root-font-size;
+  │             ^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    /Library/WebServer/Documents/chillax-docss/_sass/support/_functions.scss 2:13          rem()
+    /Library/WebServer/Documents/chillax-docss/_sass/support/mixins/_layout.scss 15:24     mq()
+    /Library/WebServer/Documents/chillax-docss/_sass/support/mixins/_typography.scss 30:3  fs-4()
+    /Library/WebServer/Documents/chillax-docss/_sass/base.scss 16:3                        @import
+    modules.scss 9:9                                                                       @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-light.scss 6:9     root stylesheet
+DEPRECATION WARNING [slash-div]: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($nav-list-item-height-sm, 4) or calc($nav-list-item-height-sm / 4)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+   ╷
+70 │       padding-top: #{$nav-list-item-height-sm / 4};
+   │                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Library/WebServer/Documents/chillax-docss/_sass/navigation.scss 70:22              @import
+    modules.scss 12:9                                                                   @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-light.scss 6:9  root stylesheet
+DEPRECATION WARNING [slash-div]: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($nav-list-item-height-sm, 4) or calc($nav-list-item-height-sm / 4)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+   ╷
+71 │       padding-right: #{$nav-list-item-height-sm / 4};
+   │                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Library/WebServer/Documents/chillax-docss/_sass/navigation.scss 71:24              @import
+    modules.scss 12:9                                                                   @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-light.scss 6:9  root stylesheet
+DEPRECATION WARNING [slash-div]: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($nav-list-item-height-sm, 4) or calc($nav-list-item-height-sm / 4)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+   ╷
+72 │       padding-bottom: #{$nav-list-item-height-sm / 4};
+   │                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Library/WebServer/Documents/chillax-docss/_sass/navigation.scss 72:25              @import
+    modules.scss 12:9                                                                   @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-light.scss 6:9  root stylesheet
+DEPRECATION WARNING [slash-div]: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($nav-list-item-height-sm, 4) or calc($nav-list-item-height-sm / 4)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+   ╷
+73 │       padding-left: #{$nav-list-item-height-sm / 4};
+   │                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Library/WebServer/Documents/chillax-docss/_sass/navigation.scss 73:23              @import
+    modules.scss 12:9                                                                   @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-light.scss 6:9  root stylesheet
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -3.3552631579%)
+color.adjust($color, $lightness: -2%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+41 │     color: darken($link-color, 2%);
+   │            ^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Library/WebServer/Documents/chillax-docss/_sass/buttons.scss 41:12                 @import
+    modules.scss 15:9                                                                   @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-light.scss 6:9  root stylesheet
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -1.032388664%)
+color.adjust($color, $lightness: -1%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+49 │     background-color: darken($base-button-color, 1%);
+   │                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Library/WebServer/Documents/chillax-docss/_sass/buttons.scss 49:23                 @import
+    modules.scss 15:9                                                                   @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-light.scss 6:9  root stylesheet
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -3.0971659919%)
+color.adjust($color, $lightness: -3%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+55 │     background-color: darken($base-button-color, 3%);
+   │                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Library/WebServer/Documents/chillax-docss/_sass/buttons.scss 55:23                 @import
+    modules.scss 15:9                                                                   @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-light.scss 6:9  root stylesheet
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -5.7954545455%)
+color.adjust($color, $lightness: -5%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+61 │     background-color: darken(#dcdcdc, 5%);
+   │                       ^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Library/WebServer/Documents/chillax-docss/_sass/buttons.scss 61:23                 @import
+    modules.scss 15:9                                                                   @import
+    /Library/WebServer/Documents/chillax-docss/assets/css/just-the-docs-light.scss 6:9  root stylesheet
+WARNING: 91 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Library/WebServer/Documents/chillax-docss/_site/index.html[0m[0m
+[33m                     - index.markdown[0m
+[33m                     - index.md[0m
+[33m                    [0m
+                    done in 1.752 seconds.
+ Auto-regeneration: disabled when running server detached.
+    Server address: http://127.0.0.1:4000/chillax/
+Server detached with pid '9467'. Run `pkill -f jekyll' or `kill -9 9467' to stop the server.
