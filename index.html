@@ -1,1 +1,235 @@
-Hello docs.meshtheme.com!!!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to our website. Explore SubNews for the latest updates and ChillaX for entertainment content.">
+    <meta name="keywords" content="news, entertainment, subnews, ChillaX">
+    <meta name="author" content="Your Site Name">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Home - Your Site Name">
+    <meta property="og:description" content="Welcome to our website. Explore SubNews for the latest updates and ChillaX for entertainment content.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://docs.meshtheme.com/">
+    <meta property="og:image" content="https://docs.meshtheme.com/og-image.jpg">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Home - Your Site Name">
+    <meta name="twitter:description" content="Welcome to our website. Explore SubNews for the latest updates and ChillaX for entertainment content.">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://docs.meshtheme.com/">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    
+    <title>Home - MeshTheme | Documention</title>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: #fff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        header {
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 2rem;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1.5rem;
+        }
+        
+        .logo {
+            width: 60px;
+            height: auto;
+        }
+        
+        .header-text {
+            text-align: left;
+        }
+        
+        header h1 {
+            color: #667eea;
+            font-size: 2.5rem;
+            margin-bottom: 0.2rem;
+            line-height: 1;
+        }
+        
+        header p {
+            color: #999;
+            font-size: 0.95rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        main {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+        
+        .container {
+            max-width: 1200px;
+            width: 100%;
+        }
+        
+        .links-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        
+        .link-card {
+            background: white;
+            border-radius: 15px;
+            padding: 2.5rem;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+        
+        .link-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+        }
+        
+        .link-card h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #667eea;
+        }
+        
+        .link-card p {
+            color: #666;
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .link-card .btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 0.8rem 2rem;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: opacity 0.3s ease;
+        }
+        
+        .link-card .btn:hover {
+            opacity: 0.9;
+        }
+        
+        footer {
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 1.5rem;
+            text-align: center;
+            color: #666;
+            margin-top: auto;
+        }
+        
+            @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            
+            .header-text {
+                text-align: center;
+            }
+            
+            header h1 {
+                font-size: 2rem;
+            }
+            
+            .links-section {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+            
+            .link-card {
+                padding: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header role="banner">
+        <div class="header-content">
+            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="64" viewBox="0 0 442 470" class="logo"><defs><radialGradient id="a" cx="50%" cy="50%" r="53.243%" fx="50%" fy="50%" gradientTransform="matrix(0 .9391 -1 0 1 .03)"><stop offset="0%" stop-color="#FB00FF"/><stop offset="100%" stop-color="#9733EE"/></radialGradient></defs><g fill="none"><path fill="url(#a)" d="M166.273 15.108c34.9-20.144 77.9-20.144 112.801 0L384.97 76.227c34.901 20.143 56.4 57.368 56.4 97.655v122.236c0 40.286-21.5 77.512-56.401 97.657l-105.896 61.117c-34.9 20.144-77.9 20.144-112.8 0l-85.035-49.078c-.786-.453-19.003-11.62-36.376-26.473a6.386 6.386 0 0 1-1.58-.87C16.216 358.084 0 326.33 0 292.297V174.553c0-31.625 14.003-61.286 37.7-81.684 3.481-5.676 38.898-26.005 42.298-27.967l86.275-49.794Z"/><path fill="#FFF" stroke="#FFF" stroke-width="6" d="M57.903 323.809c31.956-32.559 99.814-125.56 100.488-123.236-4.188 3.557 26.678 107.674 34.51 134.567 1.204 4.16 2.81 8.678 3.327 9.796 9.079 19.622 17.527 26.564 24.842 27.109 7.286-.53 15.72-7.43 24.756-26.922.545-1.176 3.959-11.862 4.633-14.2 9.366-32.128 37.278-126.95 33.29-130.35.674-2.323 68.56 90.677 100.488 123.236 2.295 2.252 9.208 8.462 11.819 10.083 9.366 5.852 30.608 12.665 21.055-32.4l-1.276-4.576-.631-1.937-.488-1.491c-7.215-17.987-44.076-119.493-59.94-152.353h.015v-.143a84.624 84.624 0 0 0-4.016-7.401l-7.172-13.425c-9.251-17.929-31.813-46.056-62.88 20.051-.1.23-5.006 11.03-9.022 21.228-48.594-75.516-91.021-14.3-100.545 1.607a117.657 117.657 0 0 0-3.27-8.463l-.1.144c-34.352-84.452-59.352-53.686-69.206-34.596l-7.172 13.425a81.756 81.756 0 0 0-3.958 7.416l-.072.143c-15.849 32.846-52.71 134.395-59.954 152.367l-.473 1.491-.646 1.937-1.29 4.59c-9.223 43.516 10.757 37.263 20.725 32.2 3.199-1.621 9.882-7.66 12.163-9.897Zm238.898-159.495c2.009-2.983 4.174-5.45 6.225-7.502v-.014s4.734-4.848 8.076-7.286l.028-.043c.453-.34.933-.642 1.435-.904l.086-.057 1.161-.53c31.34-12.193 88.44 149.21 88.44 150.544 0 0 12.966 30.278 1.793 23.853-5.207-2.769-12.292-10.17-12.292-10.17S298.78 198.651 290.777 184.882a6.024 6.024 0 0 1-.602-1.22 39.013 39.013 0 0 1 6.626-19.362v.014Zm-30.45 14.472c-4.547 29.877-21.6 130.407-45.31 128.514-23.092 1.865-39.873-93.603-44.922-126.162 44.822-82.2 82.616-17.283 90.232-2.352Zm-141.624-31.383-.014-.057s1.176-.301 3.471.617h.115c.685.289 1.343.64 1.965 1.047 2.869 1.664 6.885 4.934 12.048 11.33.516.646 1.033 1.292 1.55 2.009l.745.947h-.029c.23.344.502.645.746 1.004 3.356 5.077 6.139 11.46 6.627 19.363-.144.43-.341.84-.588 1.219-8.033 13.77-100.99 127.323-100.99 127.323s-7.086 7.401-12.292 10.184c-11.159 6.426 1.807-23.853 1.807-23.853 0-1.276 52.926-150.96 84.84-151.133Z"/></g></svg>
+            <div class="header-text">
+                <h1>MeshTheme</h1>
+                <p>Documentation</p>
+            </div>
+        </div>
+    </header>
+    
+    <main role="main">
+        <div class="container">
+            <section class="links-section" aria-label="Main Navigation">
+                <a href="https://docs.meshtheme.com/subnews" class="link-card" aria-label="Visit SubNews section">
+                    <article>
+                        <h2>SubNews</h2>
+                        <p>Stay updated with the latest news, articles, and trending stories from around the world.</p>
+                        <span class="btn">Explore News</span>
+                    </article>
+                </a>
+                
+                <a href="https://docs.meshtheme.com/chillax" class="link-card" aria-label="Visit ChillaX section">
+                    <article>
+                        <h2>ChillaX</h2>
+                        <p>Discover entertainment, relax with engaging content, and enjoy your time with curated media.</p>
+                        <span class="btn">Start Chilling</span>
+                    </article>
+                </a>
+            </section>
+        </div>
+    </main>
+    
+    <footer role="contentinfo">
+        <p>&copy; 2026 <strong>MeshTheme</strong>. All rights reserved. | Crafted with passion for developers</p>
+    </footer>
+    
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Your Site Name",
+        "url": "https://docs.meshtheme.com/",
+        "description": "Welcome to our website. Explore SubNews for the latest updates and ChillaX for entertainment content.",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://docs.meshtheme.com/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+</body>
+</html>
