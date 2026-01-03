@@ -213,9 +213,12 @@
     </main>
     
     <footer role="contentinfo">
-        <p>&copy; 2026 <strong>MeshTheme</strong>. All rights reserved. | Crafted with passion for developers</p>
+        <p>&copy; <span id="year"></span> <strong>MeshTheme</strong>. All rights reserved. | Crafted with passion for developers</p>
     </footer>
     
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
     <!-- Schema.org structured data -->
     <script type="application/ld+json">
     {
