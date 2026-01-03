@@ -430,7 +430,7 @@ jtd.getTheme = function() {
 
 jtd.setTheme = function(theme) {
   var cssFile = document.querySelector('[rel="stylesheet"]');
-  cssFile.setAttribute('href', 'http://localhost:4000/subnews/assets/css/just-the-docs-' + theme + '.css');
+  cssFile.setAttribute('href', 'https://docs.meshtheme.com/subnews/assets/css/just-the-docs-' + theme + '.css');
 }
 
 // Document ready
