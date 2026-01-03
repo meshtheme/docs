@@ -1,0 +1,37 @@
+team dynamic
+team member
+team carousel
+reviews carousel
+reviews dynamic
+testimonial bloc
+testimonial carousel
+post carousel
+logos carousel
+news block
+news tracker
+chillax map
+social link
+chillax slider
+chillax lite slider
+chillax timer
+pricing table
+taxonomy grid
+taxonomy carousel
+jquery filter
+info block
+animated typed text
+chillax weather
+advertisement
+portfollio grid
+portfollio carousel
+block
+product carousel
+author list
+blog post
+hero news block
+contract form 
+chillax counter
+section separator 
+youtube video
+video popup
+featured image
