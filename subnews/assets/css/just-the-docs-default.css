@@ -653,7 +653,7 @@ hr {
 .site-logo {
   width: 100%;
   height: 26px;
-  background-image: url("http://localhost:4000/subnews-docs/assets/images/logo.svg");
+  background-image: url("http://localhost:4000/subnews/assets/images/logo.svg");
   background-repeat: no-repeat;
   background-position: left center;
   background-size: contain;

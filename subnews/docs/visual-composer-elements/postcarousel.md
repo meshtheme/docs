@@ -22,7 +22,7 @@ nav_order: 334
 
 ### Post Carousel - General
 
-![Image](/subnews-docs/assets/images/vc/post-carousel-general.jpg)
+![Image](/subnews/assets/images/vc/post-carousel-general.jpg)
 {: .clx-shadow }
 
 1. Hello - 
@@ -43,7 +43,7 @@ nav_order: 334
 {: .clx-label }
 ### Post Carousel - Data Options
 
-![Image](/subnews-docs/assets/images/vc/post-carousel-data-options.jpg)
+![Image](/subnews/assets/images/vc/post-carousel-data-options.jpg)
 {: .clx-shadow }
 
 1. Hello - 
@@ -65,7 +65,7 @@ nav_order: 334
 
 ### Post Carousel - Design
 
-![Image](/subnews-docs/assets/images/vc/post-carousel-design.jpg)
+![Image](/subnews/assets/images/vc/post-carousel-design.jpg)
 {: .clx-shadow }
 
 1. Hello - 
