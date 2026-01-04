@@ -9,18 +9,18 @@ post carousel
 logos carousel
 news block
 news tracker
-chillax map
+subnews map
 social link
-chillax slider
-chillax lite slider
-chillax timer
+subnews slider
+subnews lite slider
+subnews timer
 pricing table
 taxonomy grid
 taxonomy carousel
 jquery filter
 info block
 animated typed text
-chillax weather
+subnews weather
 advertisement
 portfollio grid
 portfollio carousel
@@ -30,7 +30,7 @@ author list
 blog post
 hero news block
 contract form 
-chillax counter
+subnews counter
 section separator 
 youtube video
 video popup
