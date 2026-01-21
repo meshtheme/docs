@@ -22,8 +22,8 @@ info block
 animated typed text
 subnews weather
 advertisement
-portfollio grid
-portfollio carousel
+portfolio grid
+portfolio carousel
 block
 product carousel
 author list
