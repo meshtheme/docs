@@ -11,9 +11,9 @@ newsblock
 newstracker
 subnewsmap
 sociallink
-subnewsslider
+mesh-slider
 subnewsliteslider
-subnewstimer
+mesh-timer
 pricingtable
 taxonomygrid
 taxonomycarousel
@@ -30,7 +30,7 @@ authorlist
 blogpost
 heronewsblock
 contractform
-subnewscounter
+mesh-counter
 sectionseparator
 youtubevideo
 videopopup
