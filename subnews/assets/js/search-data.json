@@ -4265,414 +4265,408 @@
     "url": "/subnews/theme-options/theme-options/",
     "relUrl": "/theme-options/theme-options/"
   },"711": {
-    "doc": "Theme Options",
-    "title": "Theme Options sections",
-    "content": ". | Layout | Header | Footer | Logo | Colors | Typography | Content Area | Blog Posts | Category | Sidebar | Search | Social Media | Elements | Advanced | Custom Code | Maintenance Mode | Login Page | Portfolio | Posts Slideshow | Off-Canvas Menu | Google Map | Import &amp; Export | WooCommerce | . ",
-    "url": "/subnews/theme-options/theme-options/#theme-options-sections",
-    "relUrl": "/theme-options/theme-options/#theme-options-sections"
-  },"712": {
     "doc": "Troubleshooting",
     "title": "Troubleshooting Guide - Fix Common Issues",
     "content": "This guide helps you solve common problems with SubNews theme. ",
     "url": "/subnews/troubleshooting/#troubleshooting-guide---fix-common-issues",
     "relUrl": "/troubleshooting/#troubleshooting-guide---fix-common-issues"
-  },"713": {
+  },"712": {
     "doc": "Troubleshooting",
     "title": "Table of Contents",
     "content": ". | Before You Start | Installation Issues | Display Issues | Performance Issues | Functionality Issues | Plugin Conflicts | Security Issues | Getting Help | . ",
     "url": "/subnews/troubleshooting/#table-of-contents",
     "relUrl": "/troubleshooting/#table-of-contents"
-  },"714": {
+  },"713": {
     "doc": "Troubleshooting",
     "title": "Before You Start",
     "content": " ",
     "url": "/subnews/troubleshooting/#before-you-start",
     "relUrl": "/troubleshooting/#before-you-start"
-  },"715": {
+  },"714": {
     "doc": "Troubleshooting",
     "title": "First Steps for Any Issue",
     "content": "Step 1: Clear Browser Cache . | Windows: Press Ctrl + Shift + Delete | Mac: Press Cmd + Shift + Delete | Or check your browser settings | . Step 2: Check WordPress Version . | Log in to dashboard | Check bottom right for version | Must be 5.8 or higher | Update if needed | . Step 3: Check PHP Version . | Go to Tools → Site Health | Look for PHP version | Must be 7.4 or higher | Contact hosting if too old | . Step 4: Enable Debug Mode . | Edit wp-config.php | Find define('WP_DEBUG', false); | Change to define('WP_DEBUG', true); | Add: define('WP_DEBUG_LOG', true); | Check /wp-content/debug.log for errors | . ",
     "url": "/subnews/troubleshooting/#first-steps-for-any-issue",
     "relUrl": "/troubleshooting/#first-steps-for-any-issue"
-  },"716": {
+  },"715": {
     "doc": "Troubleshooting",
     "title": "Installation Issues",
     "content": " ",
     "url": "/subnews/troubleshooting/#installation-issues",
     "relUrl": "/troubleshooting/#installation-issues"
-  },"717": {
+  },"716": {
     "doc": "Troubleshooting",
     "title": "Problem: Theme Won’t Install",
     "content": "Cause: File permissions or size limits . Solution: . | Check WordPress memory limit: . | Go to Tools → Site Health | Look for “Memory limit” | Should be 256MB or higher | . | Try uploading smaller files first | Use FTP instead of WordPress: . | Extract theme ZIP | Upload folder to /wp-content/themes/ | Go to Themes, activate SubNews | . | Contact hosting if still fails | . ",
     "url": "/subnews/troubleshooting/#problem-theme-wont-install",
     "relUrl": "/troubleshooting/#problem-theme-wont-install"
-  },"718": {
+  },"717": {
     "doc": "Troubleshooting",
     "title": "Problem: Theme Appears Corrupted After Installation",
     "content": "Cause: Incomplete download or extraction . Solution: . | Delete theme folder via FTP | Re-download theme ZIP | Verify file integrity (check file size) | Extract again | Upload to /wp-content/themes/ | Go to Themes, activate SubNews | . ",
     "url": "/subnews/troubleshooting/#problem-theme-appears-corrupted-after-installation",
     "relUrl": "/troubleshooting/#problem-theme-appears-corrupted-after-installation"
-  },"719": {
+  },"718": {
     "doc": "Troubleshooting",
     "title": "Problem: Required Plugins Won’t Install",
     "content": "Cause: Memory limit or conflicts . Solution: . | Check memory limit (must be 512MB+ recommended) | Install one plugin at a time | Wait 1 minute between installations | Try installing via FTP: . | Download plugin ZIP | Upload to /wp-content/plugins/ | Go to Plugins, activate | . | Contact hosting if needed | . ",
     "url": "/subnews/troubleshooting/#problem-required-plugins-wont-install",
     "relUrl": "/troubleshooting/#problem-required-plugins-wont-install"
-  },"720": {
+  },"719": {
     "doc": "Troubleshooting",
     "title": "Problem: Can’t Find Theme Options Menu",
     "content": "Cause: Redux Framework not activated . Solution: . | Go to Plugins menu | Find “Redux Framework” | Check it’s “Active” | If not, click “Activate” | Go to Appearance menu | “SubNews Theme Options” should appear | If not, refresh page | . ",
     "url": "/subnews/troubleshooting/#problem-cant-find-theme-options-menu",
     "relUrl": "/troubleshooting/#problem-cant-find-theme-options-menu"
-  },"721": {
+  },"720": {
     "doc": "Troubleshooting",
     "title": "Display Issues",
     "content": " ",
     "url": "/subnews/troubleshooting/#display-issues",
     "relUrl": "/troubleshooting/#display-issues"
-  },"722": {
+  },"721": {
     "doc": "Troubleshooting",
     "title": "Problem: Website Shows Blank Page",
     "content": "Cause: PHP error or memory limit . Solution: . | Enable debug mode (see Before You Start) | Check /wp-content/debug.log for errors | Increase memory limit: . | Edit wp-config.php | Add: define('WP_MEMORY_LIMIT', '512M'); | . | Deactivate all plugins except SubNews and required ones | Switch to default theme, then back to SubNews | Check with hosting provider | . ",
     "url": "/subnews/troubleshooting/#problem-website-shows-blank-page",
     "relUrl": "/troubleshooting/#problem-website-shows-blank-page"
-  },"723": {
+  },"722": {
     "doc": "Troubleshooting",
     "title": "Problem: Theme Shows But Colors Are Wrong",
     "content": "Cause: Theme options not saved or conflicting CSS . Solution: . | Go to SubNews Theme Options | Click Colors section | Verify colors are set | Click Save Changes | Clear browser cache | Check that custom CSS doesn’t override colors | . ",
     "url": "/subnews/troubleshooting/#problem-theme-shows-but-colors-are-wrong",
     "relUrl": "/troubleshooting/#problem-theme-shows-but-colors-are-wrong"
-  },"724": {
+  },"723": {
     "doc": "Troubleshooting",
     "title": "Problem: Images Not Displaying",
     "content": "Cause: Wrong file permissions or broken links . Solution: . | Check image URL: . | Go to Media | Hover image, get URL | Paste in browser address bar | Should show image | . | Fix file permissions: . | Via FTP, check image files are 644 | Check folders are 755 | . | Re-upload image: . | Delete image from Media | Upload again | . | Check image size: . | Images must be under 5MB | Resize if too large | . | . ",
     "url": "/subnews/troubleshooting/#problem-images-not-displaying",
     "relUrl": "/troubleshooting/#problem-images-not-displaying"
-  },"725": {
+  },"724": {
     "doc": "Troubleshooting",
     "title": "Problem: Header Layout Not Changing",
     "content": "Cause: Cache or CSS issue . Solution: . | Go to SubNews Theme Options → Header | Choose different layout | Save Changes | Clear browser cache (Ctrl+Shift+Delete) | Wait 30 seconds | Refresh website | If using caching plugin, clear its cache | . ",
     "url": "/subnews/troubleshooting/#problem-header-layout-not-changing",
     "relUrl": "/troubleshooting/#problem-header-layout-not-changing"
-  },"726": {
+  },"725": {
     "doc": "Troubleshooting",
     "title": "Problem: Blog Layout Looks Wrong",
     "content": "Cause: CSS issue or conflicting plugin . Solution: . | Go to SubNews Theme Options → Blog | Choose layout | Save Changes | Clear all caches: . | Browser cache | Plugin cache (if using) | Server cache | . | Disable caching plugins temporarily | Check custom CSS in theme options | . ",
     "url": "/subnews/troubleshooting/#problem-blog-layout-looks-wrong",
     "relUrl": "/troubleshooting/#problem-blog-layout-looks-wrong"
-  },"727": {
+  },"726": {
     "doc": "Troubleshooting",
     "title": "Problem: Menu Not Showing Correctly",
     "content": "Cause: Menu not assigned or CSS issue . Solution: . | Go to Appearance → Menus | Check menu is assigned to location | Edit menu, verify items are added | Check menu items aren’t password protected | Clear browser cache | Check for CSS conflicts in custom code | Disable plugins that affect menus | . ",
     "url": "/subnews/troubleshooting/#problem-menu-not-showing-correctly",
     "relUrl": "/troubleshooting/#problem-menu-not-showing-correctly"
-  },"728": {
+  },"727": {
     "doc": "Troubleshooting",
     "title": "Performance Issues",
     "content": " ",
     "url": "/subnews/troubleshooting/#performance-issues",
     "relUrl": "/troubleshooting/#performance-issues"
-  },"729": {
+  },"728": {
     "doc": "Troubleshooting",
     "title": "Problem: Website Loading Slowly",
     "content": "Cause: Large images, no caching, too many plugins . Solution Priority: . 1. Install Caching Plugin . | Go to Plugins → Add New | Search “WP Super Cache” | Install and Activate | Settings are automatic | . 2. Optimize Images . | Use tool like TinyPNG.com | Compress all images before uploading | Resize to appropriate dimensions | Use JPG for photos, PNG for graphics | . 3. Disable Unused Plugins . | Plugins use memory | Only keep necessary ones | Deactivate unused plugins | . 4. Use CDN (Optional) . | Sign up for Cloudflare (free) | Changes DNS settings | Speeds up delivery globally | . 5. Clean Database . | Go to Tools → Cleanup Database | Or use cleanup plugin | Remove old revisions | . ",
     "url": "/subnews/troubleshooting/#problem-website-loading-slowly",
     "relUrl": "/troubleshooting/#problem-website-loading-slowly"
-  },"730": {
+  },"729": {
     "doc": "Troubleshooting",
     "title": "Problem: Images Loading Slowly",
     "content": "Cause: Large file sizes . Solution: . | Compress images before uploading | Use online tool: . | Visit TinyPNG.com | Upload images | Download compressed versions | Re-upload to WordPress | . | Delete uncompressed versions | Use lazy loading: . | Go to SubNews Theme Options | Enable lazy loading | Save changes | . | . ",
     "url": "/subnews/troubleshooting/#problem-images-loading-slowly",
     "relUrl": "/troubleshooting/#problem-images-loading-slowly"
-  },"731": {
+  },"730": {
     "doc": "Troubleshooting",
     "title": "Problem: Page Builder Slow to Load",
     "content": "Cause: Large page with many elements . Solution: . | Reduce number of elements on page | Break page into multiple pages | Use simple layouts | Optimize images | Disable extra plugins | Increase memory limit to 512MB | . ",
     "url": "/subnews/troubleshooting/#problem-page-builder-slow-to-load",
     "relUrl": "/troubleshooting/#problem-page-builder-slow-to-load"
-  },"732": {
+  },"731": {
     "doc": "Troubleshooting",
     "title": "Functionality Issues",
     "content": " ",
     "url": "/subnews/troubleshooting/#functionality-issues",
     "relUrl": "/troubleshooting/#functionality-issues"
-  },"733": {
+  },"732": {
     "doc": "Troubleshooting",
     "title": "Problem: Shortcodes Display as Text",
     "content": "Cause: Plugin not active or syntax error . Solution: . | Check Mesh Core plugin is activated | Check shortcode syntax is correct | Try copying shortcode from page builder instead of typing | Clear browser cache | Disable caching plugins | Check for PHP errors (enable debug mode) | . ",
     "url": "/subnews/troubleshooting/#problem-shortcodes-display-as-text",
     "relUrl": "/troubleshooting/#problem-shortcodes-display-as-text"
-  },"734": {
+  },"733": {
     "doc": "Troubleshooting",
     "title": "Problem: Page Builder Not Opening",
     "content": "Cause: WPBakery not activated or browser issue . Solution: . | Check WPBakery is activated | Go to Plugins, find WPBakery | Should show “Deactivate” link | If shows “Activate”, click it | Try different browser | Disable browser extensions: . | AdBlock, uBlock Origin, etc. | Disable temporarily | Try page builder again | . | Clear browser cache completely | Restart browser | . ",
     "url": "/subnews/troubleshooting/#problem-page-builder-not-opening",
     "relUrl": "/troubleshooting/#problem-page-builder-not-opening"
-  },"735": {
+  },"734": {
     "doc": "Troubleshooting",
     "title": "Problem: Contact Form Not Sending Email",
     "content": "Cause: Mail server or form configuration issue . Solution: . | Check email address in form: . | Go to Contact Forms 7 → edit form | Click “Mail” tab | Verify “To” email address | Should be your admin email | . | Test form: . | Go to page with form | Fill it out | Submit | Check inbox and spam folder | . | If no email arrives: . | Check hosting supports email | Try different email address | Contact hosting provider | . | Check form isn’t password protected | . ",
     "url": "/subnews/troubleshooting/#problem-contact-form-not-sending-email",
     "relUrl": "/troubleshooting/#problem-contact-form-not-sending-email"
-  },"736": {
+  },"735": {
     "doc": "Troubleshooting",
     "title": "Problem: Search Not Working",
     "content": "Cause: Search configuration or plugin conflict . Solution: . | Go to SubNews Theme Options → Search | Enable search functionality | Save Changes | Test search on website | If still not working: . | Disable plugins except SubNews + required | Test again | Enable plugins one by one until finds culprit | . | Check WordPress posts are published | . ",
     "url": "/subnews/troubleshooting/#problem-search-not-working",
     "relUrl": "/troubleshooting/#problem-search-not-working"
-  },"737": {
+  },"736": {
     "doc": "Troubleshooting",
     "title": "Problem: Related Posts Not Showing",
     "content": "Cause: Configuration or no related content . Solution: . | Go to SubNews Theme Options → Blog | Enable “Related Posts” | Save Changes | Check post has categories | Check other posts in same category exist | Related posts automatically show on single post | If still not showing: . | Check post isn’t password protected | Check categories are assigned | Clear all caches | . | . ",
     "url": "/subnews/troubleshooting/#problem-related-posts-not-showing",
     "relUrl": "/troubleshooting/#problem-related-posts-not-showing"
-  },"738": {
+  },"737": {
     "doc": "Troubleshooting",
     "title": "Problem: WooCommerce Products Not Showing",
     "content": "Cause: WooCommerce not activated or products not published . Solution: . | Check WooCommerce is installed and activated | Check products are published: . | Go to Products | Verify products show | . | Check products are in category: . | Edit product | Assign category | Save | . | Go to shop page | Products should display | If not: . | Check theme options WooCommerce settings | Clear all caches | Disable plugins except SubNews + WooCommerce | . | . ",
     "url": "/subnews/troubleshooting/#problem-woocommerce-products-not-showing",
     "relUrl": "/troubleshooting/#problem-woocommerce-products-not-showing"
-  },"739": {
+  },"738": {
     "doc": "Troubleshooting",
     "title": "Plugin Conflicts",
     "content": " ",
     "url": "/subnews/troubleshooting/#plugin-conflicts",
     "relUrl": "/troubleshooting/#plugin-conflicts"
-  },"740": {
+  },"739": {
     "doc": "Troubleshooting",
     "title": "Problem: Two Plugins Conflicting",
     "content": "Cause: Plugin incompatibility or code conflict . Solution: . | Identify which plugins conflict (usually 2 plugins) | Deactivate one plugin | Test if issue goes away | If yes, you found culprit | Options: . | Use different plugin | Contact plugin developer | Disable one plugin | . | . To Find Conflicting Plugin: . | Deactivate all plugins except SubNews + required ones | Test if problem gone | Activate plugins one by one | Test after each activation | When problem reappears, found culprit | Disable that plugin | . ",
     "url": "/subnews/troubleshooting/#problem-two-plugins-conflicting",
     "relUrl": "/troubleshooting/#problem-two-plugins-conflicting"
-  },"741": {
+  },"740": {
     "doc": "Troubleshooting",
     "title": "Problem: Plugin Causes White Screen",
     "content": "Cause: Memory limit or incompatible plugin . Solution: . | Increase memory limit: . | Edit wp-config.php | Add: define('WP_MEMORY_LIMIT', '512M'); | . | Deactivate all plugins except SubNews + required | Activate plugins one by one | When problem reappears, found culprit | Delete or replace that plugin | . ",
     "url": "/subnews/troubleshooting/#problem-plugin-causes-white-screen",
     "relUrl": "/troubleshooting/#problem-plugin-causes-white-screen"
-  },"742": {
+  },"741": {
     "doc": "Troubleshooting",
     "title": "Problem: Plugin Breaks Page Builder",
     "content": "Cause: Plugin modifies core functionality . Solution: . | Deactivate all non-essential plugins | Test page builder | Activate plugins one by one | Test after each | When breaks, found culprit | Disable that plugin | Try alternative plugin if available | . ",
     "url": "/subnews/troubleshooting/#problem-plugin-breaks-page-builder",
     "relUrl": "/troubleshooting/#problem-plugin-breaks-page-builder"
-  },"743": {
+  },"742": {
     "doc": "Troubleshooting",
     "title": "Security Issues",
     "content": " ",
     "url": "/subnews/troubleshooting/#security-issues",
     "relUrl": "/troubleshooting/#security-issues"
-  },"744": {
+  },"743": {
     "doc": "Troubleshooting",
     "title": "Problem: Site Hacked or Compromised",
     "content": "Cause: Weak password, outdated software, or malicious plugin . Solution: . | Change all passwords immediately: . | WordPress admin | FTP/SFTP | cPanel | Database | . | Restore from clean backup (before hack) | Check for malicious plugins: . | Go to Plugins | Look for suspicious plugins | Delete if necessary | . | Update everything: . | WordPress core | All plugins | Theme | . | Install security plugin: . | Wordfence (free) | Sucuri (free) | . | Scan for malware | . ",
     "url": "/subnews/troubleshooting/#problem-site-hacked-or-compromised",
     "relUrl": "/troubleshooting/#problem-site-hacked-or-compromised"
-  },"745": {
+  },"744": {
     "doc": "Troubleshooting",
     "title": "Problem: Suspicious Plugin Detected",
     "content": "Cause: Compromised or malicious code . Solution: . | Deactivate plugin immediately | Delete plugin | Search plugin name online | Check if it’s known malware | If legitimate, reinstall fresh copy from WordPress.org | Install security plugin to scan site | Change all passwords | . ",
     "url": "/subnews/troubleshooting/#problem-suspicious-plugin-detected",
     "relUrl": "/troubleshooting/#problem-suspicious-plugin-detected"
-  },"746": {
+  },"745": {
     "doc": "Troubleshooting",
     "title": "Problem: Brute Force Attack (Many Login Attempts)",
     "content": "Cause: Weak admin password . Solution: . | Change admin password to strong one: . | 12+ characters | Mix of letters, numbers, symbols | Unique password | . | Install security plugin: . | Wordfence | iThemes Security | . | Enable two-factor authentication | Limit login attempts: . | Wordfence has this built-in | . | Change login URL: . | Use security plugin | Makes harder to find | . | . ",
     "url": "/subnews/troubleshooting/#problem-brute-force-attack-many-login-attempts",
     "relUrl": "/troubleshooting/#problem-brute-force-attack-many-login-attempts"
-  },"747": {
+  },"746": {
     "doc": "Troubleshooting",
     "title": "Common Error Messages",
     "content": " ",
     "url": "/subnews/troubleshooting/#common-error-messages",
     "relUrl": "/troubleshooting/#common-error-messages"
-  },"748": {
+  },"747": {
     "doc": "Troubleshooting",
     "title": "Error: “Fatal error: allowed memory size exhausted”",
     "content": "Solution: . | Edit wp-config.php | Add: define('WP_MEMORY_LIMIT', '512M'); | Or increase memory limit with hosting provider | . ",
     "url": "/subnews/troubleshooting/#error-fatal-error-allowed-memory-size-exhausted",
     "relUrl": "/troubleshooting/#error-fatal-error-allowed-memory-size-exhausted"
-  },"749": {
+  },"748": {
     "doc": "Troubleshooting",
     "title": "Error: “Maximum execution time exceeded”",
     "content": "Solution: . | Edit wp-config.php | Add: set_time_limit(300); | Or contact hosting provider to increase | . ",
     "url": "/subnews/troubleshooting/#error-maximum-execution-time-exceeded",
     "relUrl": "/troubleshooting/#error-maximum-execution-time-exceeded"
-  },"750": {
+  },"749": {
     "doc": "Troubleshooting",
     "title": "Error: “Can’t connect to database”",
     "content": "Solution: . | Check database credentials in wp-config.php | Verify database exists | Check database user permissions | Contact hosting provider | . ",
     "url": "/subnews/troubleshooting/#error-cant-connect-to-database",
     "relUrl": "/troubleshooting/#error-cant-connect-to-database"
-  },"751": {
+  },"750": {
     "doc": "Troubleshooting",
     "title": "Error: “Undefined index” or “Undefined variable”",
     "content": "Solution: . | Enable debug mode | Check /wp-content/debug.log | Usually not critical, just warnings | Contact plugin developer if in plugin | . ",
     "url": "/subnews/troubleshooting/#error-undefined-index-or-undefined-variable",
     "relUrl": "/troubleshooting/#error-undefined-index-or-undefined-variable"
-  },"752": {
+  },"751": {
     "doc": "Troubleshooting",
     "title": "Error: “Your site has experienced a critical error”",
     "content": "Solution: . | Enable debug mode (see Before You Start) | Check debug.log for error details | Increase memory limit | Deactivate plugins | Check PHP version | Contact hosting provider | . ",
     "url": "/subnews/troubleshooting/#error-your-site-has-experienced-a-critical-error",
     "relUrl": "/troubleshooting/#error-your-site-has-experienced-a-critical-error"
-  },"753": {
+  },"752": {
     "doc": "Troubleshooting",
     "title": "Debug Mode Guide",
     "content": " ",
     "url": "/subnews/troubleshooting/#debug-mode-guide",
     "relUrl": "/troubleshooting/#debug-mode-guide"
-  },"754": {
+  },"753": {
     "doc": "Troubleshooting",
     "title": "Enable Debug Mode",
     "content": ". | Edit file: wp-config.php (in root directory) | Find: define('WP_DEBUG', false); | Change to: define('WP_DEBUG', true); define('WP_DEBUG_DISPLAY', false); define('WP_DEBUG_LOG', true); . | Save file | . ",
     "url": "/subnews/troubleshooting/#enable-debug-mode",
     "relUrl": "/troubleshooting/#enable-debug-mode"
-  },"755": {
+  },"754": {
     "doc": "Troubleshooting",
     "title": "Check Error Log",
     "content": ". | Via FTP, go to /wp-content/ | Open file: debug.log | Look at last entries | Error message will be there | . ",
     "url": "/subnews/troubleshooting/#check-error-log",
     "relUrl": "/troubleshooting/#check-error-log"
-  },"756": {
+  },"755": {
     "doc": "Troubleshooting",
     "title": "Disable Debug Mode",
     "content": "When done troubleshooting: . | Edit wp-config.php | Change back to: define('WP_DEBUG', false); | Delete debug.log file | Save | . ",
     "url": "/subnews/troubleshooting/#disable-debug-mode",
     "relUrl": "/troubleshooting/#disable-debug-mode"
-  },"757": {
+  },"756": {
     "doc": "Troubleshooting",
     "title": "When to Contact Support",
     "content": "Contact support if: . | ❌ You can’t install theme | ❌ Blank page and debug shows theme error | ❌ Theme features don’t work as documented | ❌ Need help customizing beyond basic options | . Don’t contact support for: . | ✅ Plugin compatibility (contact plugin author) | ✅ General WordPress help (check WordPress.org) | ✅ Hosting issues (contact hosting provider) | . ",
     "url": "/subnews/troubleshooting/#when-to-contact-support",
     "relUrl": "/troubleshooting/#when-to-contact-support"
-  },"758": {
+  },"757": {
     "doc": "Troubleshooting",
     "title": "Helpful Resources",
     "content": " ",
     "url": "/subnews/troubleshooting/#helpful-resources",
     "relUrl": "/troubleshooting/#helpful-resources"
-  },"759": {
+  },"758": {
     "doc": "Troubleshooting",
     "title": "Self-Help Resources",
     "content": ". | FAQ Guide - Common questions | Getting Started Guide - Installation help | Common Tasks Guide - How-to guides | Theme Features Guide - Feature explanations | . ",
     "url": "/subnews/troubleshooting/#self-help-resources",
     "relUrl": "/troubleshooting/#self-help-resources"
-  },"760": {
+  },"759": {
     "doc": "Troubleshooting",
     "title": "External Resources",
     "content": ". | WordPress.org support forums | Theme documentation website | Plugin documentation | Hosting provider support | . ",
     "url": "/subnews/troubleshooting/#external-resources",
     "relUrl": "/troubleshooting/#external-resources"
-  },"761": {
+  },"760": {
     "doc": "Troubleshooting",
     "title": "Tools for Troubleshooting",
     "content": ". | WordPress Site Health tool (Tools → Site Health) | Browser Developer Tools (F12) | FTP client (FileZilla) | Text editor for wp-config.php | . ",
     "url": "/subnews/troubleshooting/#tools-for-troubleshooting",
     "relUrl": "/troubleshooting/#tools-for-troubleshooting"
-  },"762": {
+  },"761": {
     "doc": "Troubleshooting",
     "title": "Quick Troubleshooting Flowchart",
     "content": "Seeing error or blank page? → Enable debug mode, check debug.log . Features not working? → Check plugin is activated, clear cache . Website looks wrong? → Clear browser cache, check theme options . Slow website? → Install caching plugin, optimize images . Can’t use page builder? → Check WPBakery activated, try different browser . Email not sending? → Check form email settings, contact hosting . Plugin conflict? → Deactivate plugins one by one until found . ",
     "url": "/subnews/troubleshooting/#quick-troubleshooting-flowchart",
     "relUrl": "/troubleshooting/#quick-troubleshooting-flowchart"
-  },"763": {
+  },"762": {
     "doc": "Troubleshooting",
     "title": "Summary",
     "content": "Most issues have simple solutions: . | ✅ Clear caches (browser + plugin) | ✅ Update WordPress, plugins, theme | ✅ Increase memory limit if needed | ✅ Check plugin/theme is activated | ✅ Disable conflicting plugins | ✅ Use debug mode for errors | . Try these steps first before contacting support! . Still stuck? Check FAQ Guide or relevant guide above! 🆘 . ",
     "url": "/subnews/troubleshooting/#summary",
     "relUrl": "/troubleshooting/#summary"
-  },"764": {
+  },"763": {
     "doc": "Troubleshooting",
     "title": "Troubleshooting",
     "content": " ",
     "url": "/subnews/troubleshooting/",
     "relUrl": "/troubleshooting/"
-  },"765": {
+  },"764": {
     "doc": "Typography",
     "title": "Typography",
     "content": "Set global typography for headings, body text, and links. These settings act as defaults across the theme. Typography settings can be overridden by specific theme options or block/widget settings when available. | Custom Fonts - Upload and manage custom fonts for use in any typography field. | Body Font - Set the base font family, size, weight, and line height for your site. | Links Color - Define link colors for normal, hover, and active states. | H1–H6 Headers - Configure font family, size, weight, and spacing per heading level. | . ",
     "url": "/subnews/theme-options/typography/",
     "relUrl": "/theme-options/typography/"
-  },"766": {
+  },"765": {
     "doc": "Video PopUp",
     "title": "Video PopUp",
     "content": "Add a video thumbnail that opens a popup player. | Video PopUp - General | Video PopUp - Design | . ",
     "url": "/subnews/wpbakery-elements/videopopup/",
     "relUrl": "/wpbakery-elements/videopopup/"
-  },"767": {
+  },"766": {
     "doc": "Video PopUp",
     "title": "Video PopUp - General",
     "content": ". | Video URL/Link - Enter a YouTube, Vimeo, or Instagram URL. Supports providers listed in WordPress Embeds. | Video Length - Optional display text (e.g. 5:30). | Video Title - Title shown on the block. | Description - Short description text. | Min-Height - Minimum height in pixels (default: 350). | . ",
     "url": "/subnews/wpbakery-elements/videopopup/#video-popup---general",
     "relUrl": "/wpbakery-elements/videopopup/#video-popup---general"
-  },"768": {
+  },"767": {
     "doc": "Video PopUp",
     "title": "Video PopUp - Design",
     "content": ". | Overlay Color - Text overlay background color. | CSS Box - Additional styling for the block. | . ",
     "url": "/subnews/wpbakery-elements/videopopup/#video-popup---design",
     "relUrl": "/wpbakery-elements/videopopup/#video-popup---design"
-  },"769": {
+  },"768": {
     "doc": "WooCommerce",
     "title": "WooCommerce - Shop",
     "content": "SubNews includes WooCommerce‑ready styling for product archives, single products, cart, and checkout pages. This page links you to the official WooCommerce setup and highlights the SubNews‑specific options you may want to configure. ",
     "url": "/subnews/woocommerce/#woocommerce---shop",
     "relUrl": "/woocommerce/#woocommerce---shop"
-  },"770": {
+  },"769": {
     "doc": "WooCommerce",
     "title": "Quick start",
     "content": ". | Install and activate WooCommerce: WooCommerce plugin | Run the WooCommerce setup wizard. | . ",
     "url": "/subnews/woocommerce/#quick-start",
     "relUrl": "/woocommerce/#quick-start"
-  },"771": {
+  },"770": {
     "doc": "WooCommerce",
     "title": "Official WooCommerce documentation",
     "content": "Start here for full WooCommerce setup and management: . WooCommerce Getting Started (Official Docs) . ",
     "url": "/subnews/woocommerce/#official-woocommerce-documentation",
     "relUrl": "/woocommerce/#official-woocommerce-documentation"
-  },"772": {
+  },"771": {
     "doc": "WooCommerce",
     "title": "Key WooCommerce guides",
     "content": ". | Installation &amp; Updating | WooCommerce Setup Wizard | Creating Products | Product Categories, Tags &amp; Attributes | Payments | Shipping Zones | Managing Orders | WooCommerce Analytics | . ",
     "url": "/subnews/woocommerce/#key-woocommerce-guides",
     "relUrl": "/woocommerce/#key-woocommerce-guides"
-  },"773": {
+  },"772": {
     "doc": "WooCommerce",
     "title": "Troubleshooting",
     "content": "Shop layout looks wrong Review Theme Options → WooCommerce and make sure WooCommerce templates are not overridden by another plugin. Images appear blurry Run Tools → Regenerate Thumbnails after changing image sizes. Cart/checkout blocks don’t match the demo WooCommerce blocks depend on plugin version. Try updating WooCommerce and re‑adding the block. ",
     "url": "/subnews/woocommerce/#troubleshooting",
     "relUrl": "/woocommerce/#troubleshooting"
-  },"774": {
+  },"773": {
     "doc": "WooCommerce",
     "title": "WooCommerce",
     "content": " ",
     "url": "/subnews/woocommerce/",
     "relUrl": "/woocommerce/"
-  },"775": {
+  },"774": {
     "doc": "WPBakery Elements",
     "title": "WPBakery Elements",
     "content": "SubNews includes a set of custom WPBakery elements for building layouts quickly. You can find them under the Mesh category inside the WPBakery element picker. ",
     "url": "/subnews/wpbakery-elements/",
     "relUrl": "/wpbakery-elements/"
-  },"776": {
+  },"775": {
     "doc": "WPBakery Elements",
     "title": "Add an element",
     "content": ". | Edit a page with WPBakery Page Builder. | Click Add Element. | Open the Mesh category. | Choose an element and configure its settings. | Click Save Changes. | . For detailed settings and screenshots, open any element from the sidebar list (News Block, Mesh Slider, Mesh Counter, and more). ",
     "url": "/subnews/wpbakery-elements/#add-an-element",
     "relUrl": "/wpbakery-elements/#add-an-element"
-  },"777": {
+  },"776": {
     "doc": "Youtube Video",
     "title": "Youtube Video",
     "content": "Embed a YouTube video with title and description text. | Youtube Video - General | Youtube Video - Design | . ",
     "url": "/subnews/wpbakery-elements/youtubevideo/",
     "relUrl": "/wpbakery-elements/youtubevideo/"
-  },"778": {
+  },"777": {
     "doc": "Youtube Video",
     "title": "Youtube Video - General",
     "content": ". | YouTube Video ID - The ID from the YouTube URL (e.g. bmN5y2BYFMU). | Hide Video Information - Show or hide YouTube info controls. | Title - Optional block title. | Description - Description text under the video. | Height - Video height (supports px, %, vh, etc.). | Width - Video width (supports px, %, etc.). | Text Align - Align the text content. | . ",
     "url": "/subnews/wpbakery-elements/youtubevideo/#youtube-video---general",
     "relUrl": "/wpbakery-elements/youtubevideo/#youtube-video---general"
-  },"779": {
+  },"778": {
     "doc": "Youtube Video",
     "title": "Youtube Video - Design",
     "content": ". | CSS Box - Additional styling for the block. | . ",
