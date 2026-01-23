@@ -799,7 +799,7 @@
   },"133": {
     "doc": "FAQ",
     "title": "Q: Can I import demo content?",
-    "content": "A: Yes! Install “One Click Demo Import” plugin, then go to Appearance → Import Demo Data. Choose a demo and import. Takes 2-5 minutes depending on content size. ",
+    "content": "A: Yes! Install “One Click Demo Import” plugin, then go to SubNews → Import Demo Data. Choose a demo and import. Takes 2-5 minutes depending on content size. ",
     "url": "/subnews/faq/#q-can-i-import-demo-content",
     "relUrl": "/faq/#q-can-i-import-demo-content"
   },"134": {
@@ -2137,13 +2137,13 @@
   },"356": {
     "doc": "One Click Demo Import",
     "title": "Step 1: Install the importer plugin",
-    "content": ". | Go to Appearance → Install Plugins. | Install and activate One Click Demo Import. | . If you do not see it in the installer list, install it from Plugins → Add New. ",
+    "content": ". | Go to SubNews → Install Plugins. | Install and activate One Click Demo Import. | . If you do not see it in the installer list, install it from Plugins → Add New. ",
     "url": "/subnews/getting-started/one-click-demo-import/#step-1-install-the-importer-plugin",
     "relUrl": "/getting-started/one-click-demo-import/#step-1-install-the-importer-plugin"
   },"357": {
     "doc": "One Click Demo Import",
     "title": "Step 2: Import demo content",
-    "content": ". | Go to Appearance → Import Demo Data. | Choose the demo you want and click Import. | Wait until the import finishes. Do not close the browser during the process. | . ",
+    "content": ". | Go to SubNews → Import Demo Data. | Choose the demo you want and click Import. | Wait until the import finishes. Do not close the browser during the process. | . ",
     "url": "/subnews/getting-started/one-click-demo-import/#step-2-import-demo-content",
     "relUrl": "/getting-started/one-click-demo-import/#step-2-import-demo-content"
   },"358": {
