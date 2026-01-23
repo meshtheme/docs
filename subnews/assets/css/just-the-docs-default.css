@@ -632,8 +632,8 @@ hr {
   display: flex;
   height: 100%;
   align-items: center;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
   color: #27262b;
   font-size: 18px !important;
 }
@@ -645,8 +645,8 @@ hr {
 }
 @media (min-width: 64rem) {
   .site-title {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
   }
 }
 
@@ -7318,6 +7318,17 @@ img[data-action=zoom] {
 
 .clx-shadow img {
   box-shadow: 0 1px 2px 0px rgb(142, 142, 142);
+}
+
+.site-logo {
+  background-size: 130px !important;
+  font-size: 16px !important;
+  padding-left: 136px;
+}
+
+span.site-title {
+  padding: 0 !important;
+  font-size: 16px !important;
 }
 
 /*# sourceMappingURL=just-the-docs-default.css.map */
